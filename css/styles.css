@@ -1,0 +1,148 @@
+body
+{
+    text-align: center;
+}
+.f
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ft
+{
+   
+    margin: 5%;
+   
+
+}
+@media (max-width: 778px) 
+{
+    .ft
+    {
+        width: 300;
+        height: 300;
+        
+    }
+   
+}
+/* Title Section */
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1
+{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.container-fluid
+{
+    padding: 3% 15% 5%;
+}
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+/*Features Section*/
+h3
+{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h2
+{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: bold;
+}
+.details
+{
+    color: #bfbfbf;
+    font-weight:normal;
+}
+/* .ft
+{
+    color: #ef8172;
+    margin-left: 3%;
+   
+
+}
+.ft:hover
+{
+    color: #ff4c68;
+} */
+.dp
+{
+    margin-top: 5%;
+}
+#features
+{
+    padding-top: 1%;
+    background-color: #fff;
+    position: relative;
+   
+}
+
+/*Pricing Section*/
+#pricing
+{
+    padding: 100px;
+}
+.pricing-column
+{
+    padding: 3% 2%;
+   
+}
+
+/*Section Call to Action*/
+#cta
+{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+.c
+{
+    font-family: 'Montserrat';
+    font-size: 3.2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fff;
+}
+/*Section Footer*/
+#footer
+{
+    background-color: #fff;
+    padding: 7% 15%;
+}
+.contact
+{
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
